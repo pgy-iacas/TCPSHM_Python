@@ -5,13 +5,13 @@
 
     1.在linux系统下安装SWIG3.0及以上版本。
     
-    2.在Client文件夹下运行build.sh，生成tcpshm_server.so和tcpshm_server_wrap.cxx文件为生成的附加文件，tcpshm_server.py即为生成的服务器端的python模块
+    2.在Server文件夹下运行build.sh，生成tcpshm_server.so和tcpshm_server_wrap.cxx文件为生成的附加文件，tcpshm_server.py即为生成的服务器端的python模块
 
-    3.运行Run_Server.py文件运行服务器端。
+    3.运行Run_Server.py文件启动服务器端。
 
     4.在Client文件夹下运行build.sh，生成tcpshm_client.so和tcpshm_client_wrap.cxx文件为生成的附加文件，tcpshm_client.py即为生成的客户端python模块
 
-    5.运行Run_Client.py文件运行客户端即可进行通信。
+    5.运行Run_Client.py文件启动客户端即可进行通信。
     
 
 由于原项目直接通过SWIG包装为python模块报错，因此将原项目做了部分删改以适应SWIG的python封装。
